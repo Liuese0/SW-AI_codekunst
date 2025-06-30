@@ -15,7 +15,7 @@ class ChatEmotionAnalyzer:
         self.root.configure(bg='#f0f0f0')
         
         # Gemini API 설정
-        self.api_key = "AIzaSyDPUXHrBZ3P4luxl9aTvrqsTPRZtDNAo18"
+        self.api_key = "api key input okay? haha"
         genai.configure(api_key=self.api_key)
         # 최신 Gemini 모델 사용
         try:
